@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background-color: #8b1717;
+    padding: 16px 0;
+    color: black;
+    display: flex;
+    border-bottom: 16px solid  #721818;
+    justify-content: center;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+
+header button {
+    margin-left: 16px;
+}
+
+
+
+form {
+    background-color: rgb(178, 171, 180);
+    padding: 24px 0;
+    text-align: center;
+    align-items: center;
+    display: none;
+    border-bottom: 8px solid black;
+
+}
+
+form .content {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+}
+
+form h2 {
+    margin-bottom: 16px;
+}
+
+input, 
+button, textarea {
+    padding: 8px;
+}
+
+textarea {
+resize: none;
+}
+
+button {
+    background-color: #009432;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    cursor: pointer;
+}
+
+#botao-cancel {
+    background-color: rgb(192, 60, 60);
+}
+
+body {
+    background-color: rgb(178, 171, 180) ;
+}
+
+.container {
+    padding: 16px 0;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(178, 171, 180);
+}
+li {
+    padding: 10px;
+    background-color: #f0f0f0;
+    margin: 5px 0;
+    display: flex;
+    background-color: rgb(178, 171, 180);
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+li:hover {
+    background-color: rgb(190, 183, 192);
+}
+
+.riscado {
+    text-decoration: line-through;
+}
